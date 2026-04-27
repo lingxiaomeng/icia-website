@@ -327,8 +327,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #home {
   width: 100vw;
-  height: 70vw;
-  min-height: 100vh;
+  height: 48vw;
+  /* min-height: 100vh; */
   background: url(../img/yinchuan.jpg) top center;
   background-size: cover;
   /* background-repeat: no-repeat; */
@@ -1108,17 +1108,69 @@ section {
 }
 
 
+#attraction h2 {
+  color: #333;
+  font-weight: 700;
+  font-size: 42px;
+}
+
+
+#attraction {
+  background:  #fff;
+  padding: 80px 0 60px 0;
+}
+
+
+#attraction h3 {
+  color: #111;
+  font-weight: 600;
+  font-size: 24px;
+
+  /* text-align: center; */
+}
+
+#attraction p {
+  color: #111;
+  /* font-weight: 700; */
+  font-size: 22px; 
+  /* line-height: 24px; */
+  margin: 0 0px 10px 0px;
+  /* text-align: center; */
+}
+
+
 #program h2 {
   color: #333;
   font-weight: 700;
   font-size: 42px;
 }
+
+
 /* venue Section
 --------------------------------*/
+
 #venue {
   background: #f7f7f7;
   padding: 80px 0 40px 0;
 }
+
+#venue h2 {
+  color: #333;
+  font-weight: 700;
+  font-size: 42px;
+}
+
+#venue p {
+  color: #111;
+  /* font-weight: 700; */
+  font-size: 22px; 
+  /* line-height: 24px; */
+  margin: 0 0px 10px 0px;
+  /* text-align: center; */
+}
+
+
+
 #venue #google-map {
   height: 300px;
   margin-bottom: 20px;
