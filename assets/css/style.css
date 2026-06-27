@@ -790,8 +790,9 @@ section {
   color: #111;
   /* font-weight: 700; */
   font-size: 22px;
-  line-height: 20px;
-  text-align: left;
+  line-height: 30px;
+  text-align: center;
+  width: 100%;
 }
 
 #InvitedSpeakers .title a {
